@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WeatherApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2485fdd3fdb1cc76a56e89714cc815ef</Value>
+    </Setting>
+    <Setting Name="CityId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">756135</Value>
+    </Setting>
+    <Setting Name="RefreshFrequencyMinutes" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Units" Type="System.String" Scope="User">
+      <Value Profile="(Default)">metric</Value>
+    </Setting>
+    <Setting Name="CityName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Warsaw</Value>
+    </Setting>
+    <Setting Name="Country" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
