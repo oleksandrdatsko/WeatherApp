@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\obj\Debug\
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\
 WeatherApp
 none
 false
 DEBUG;TRACE
-C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\App.xaml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\App.xaml
 3-1090790411
 
 18729174197
-72-1843087277
+72-1269502013
 Views\AboutView.xaml;Views\SettingsView.xaml;Views\WeatherView.xaml;
 
 False

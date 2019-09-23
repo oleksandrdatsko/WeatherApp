@@ -34,3 +34,39 @@ C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\obj\Debug\Views\SettingsView.g.
 C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\obj\Debug\Views\SettingsView.baml
 C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\obj\Debug\Views\AboutView.g.cs
 C:\Users\DATSKO\source\repos\MVVM_WPF\WeatherApp\obj\Debug\Views\AboutView.baml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\WeatherApp.exe.config
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\WeatherApp.exe
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\WeatherApp.pdb
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\OpenWeatherAPI.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\System.Windows.Interactivity.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\System.Net.Http.Formatting.dll
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\OpenWeatherAPI.pdb
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\OpenWeatherAPI.dll.config
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.xml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\bin\Debug\System.Net.Http.Formatting.xml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.csprojAssemblyReference.cache
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\AboutView.g.cs
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\SettingsView.g.cs
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\WeatherView.g.cs
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\App.g.cs
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp_MarkupCompile.cache
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp_MarkupCompile.lref
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\App.baml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\AboutView.baml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\SettingsView.baml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\Views\WeatherView.baml
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.g.resources
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.cache
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.csproj.CopyComplete
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.exe
+D:\Visual Studio Projects\MVVM_WPF\WeatherApp\obj\Debug\WeatherApp.pdb
