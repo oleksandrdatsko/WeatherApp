@@ -78,6 +78,7 @@
     <Compile Include="Models\GetLocationListModel.cs" />
     <Compile Include="Models\GetWeatherDataModel.cs" />
     <Compile Include="Models\LocationListModel.cs" />
+    <Compile Include="Models\PasswordHelperModel.cs" />
     <Compile Include="Models\RefreshIntervalModel.cs" />
     <Compile Include="Models\WeatherDataTransformationModel.cs" />
     <Compile Include="Settings.cs" />
