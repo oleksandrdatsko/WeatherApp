@@ -8,27 +8,29 @@ using System.Windows.Controls;
 
 namespace WeatherApp.Models
 {
-    public class PasswordHelperModel
+    public static class PasswordHelperModel
     {
         public static readonly DependencyProperty PasswordProperty = DependencyProperty.RegisterAttached("Password",
-                                typeof(string), typeof(PasswordHelperModel),
-                                new FrameworkPropertyMetadata(string.Empty, OnPasswordPropertyChanged));
+                                            typeof(string), typeof(PasswordHelperModel),
+                                            new FrameworkPropertyMetadata(string.Empty, OnPasswordPropertyChanged));
 
-        public static readonly DependencyProperty AttachProperty = DependencyProperty.RegisterAttached("Attach",
-                                typeof(bool), typeof(PasswordHelperModel),
-                                new PropertyMetadata(false, Attach));
+        public static readonly DependencyProperty AttachProperty =
+            DependencyProperty.RegisterAttached("Attach",
+            typeof(bool), typeof(PasswordHelperModel), new PropertyMetadata(false, Attach));
 
-        private static readonly DependencyProperty IsUpdatingProperty = DependencyProperty.RegisterAttached("IsUpdating",
-                                typeof(bool), typeof(PasswordHelperModel));
+        private static readonly DependencyProperty IsUpdatingProperty =
+           DependencyProperty.RegisterAttached("IsUpdating", typeof(bool),
+           typeof(PasswordHelperModel));
 
-        private static bool GetAttach(DependencyObject dp)
-        {
-            return (bool)dp.GetValue(PasswordProperty);
-        }
 
-        private static void SetAttach(DependencyObject dp, bool value)
+        public static void SetAttach(DependencyObject dp, bool value)
         {
             dp.SetValue(AttachProperty, value);
+        }
+
+        public static bool GetAttach(DependencyObject dp)
+        {
+            return (bool)dp.GetValue(AttachProperty);
         }
 
         public static string GetPassword(DependencyObject dp)
@@ -51,7 +53,8 @@ namespace WeatherApp.Models
             dp.SetValue(IsUpdatingProperty, value);
         }
 
-        private static void OnPasswordPropertyChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        private static void OnPasswordPropertyChanged(DependencyObject sender,
+            DependencyPropertyChangedEventArgs e)
         {
             PasswordBox passwordBox = sender as PasswordBox;
             passwordBox.PasswordChanged -= PasswordChanged;
@@ -60,11 +63,11 @@ namespace WeatherApp.Models
             {
                 passwordBox.Password = (string)e.NewValue;
             }
-
             passwordBox.PasswordChanged += PasswordChanged;
         }
 
-        private static void Attach (DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        private static void Attach(DependencyObject sender,
+            DependencyPropertyChangedEventArgs e)
         {
             PasswordBox passwordBox = sender as PasswordBox;
 
@@ -82,7 +85,15 @@ namespace WeatherApp.Models
             }
         }
 
-        private static void PasswordChanged (object sender, RoutedEventArgs e)
+        private static void PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            PasswordBox passwordBox = sender as PasswordBox;
+            SetIsUpdating(passwordBox, true);
+            SetPassword(passwordBox, passwordBox.Password);
+            SetIsUpdating(passwordBox, false);
+        }
+
+        private static void Paste(object sender, RoutedEventArgs e)
         {
             PasswordBox passwordBox = sender as PasswordBox;
             SetIsUpdating(passwordBox, true);
@@ -90,4 +101,4 @@ namespace WeatherApp.Models
             SetIsUpdating(passwordBox, false);
         }
     }
-}
+    }

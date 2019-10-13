@@ -89,15 +89,15 @@
         <!-- Row 4 : API Key -->
         <StackPanel Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal">
             <TextBlock Width="100" Text="API Key : " Margin="10" VerticalAlignment="Center"/>
-            <TextBox Width="200" Margin="10" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
-                     FontSize="12" 
-                     Text="{Binding Path=APIKey,Mode=TwoWay}">
-            </TextBox>
+            <PasswordBox s:PasswordHelperModel.Attach="True"  
+                         s:PasswordHelperModel.Password="{Binding Path=APIKey, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin ="10"
+                         VerticalContentAlignment="Center" HorizontalContentAlignment="Center" 
+                         FontSize="12"/>
             <Image Source="/WeatherApp;component/Resources/icons8-about-64.png" 
                    ToolTip="To obtain API key, please register at OpenWeather.com. Registration is free. If API key is empty a test endpoint is used" 
                    Height="15"/>
         </StackPanel>
-        
+
         <!-- Row 5 : Save and Close -->
         <Button x:Name="SaveAndClose" Grid.Row="5" Grid.Column="1" Content="Save and Close" 
                 BorderThickness="0" RenderTransformOrigin="0,1" Opacity="0.8" Margin="5"
