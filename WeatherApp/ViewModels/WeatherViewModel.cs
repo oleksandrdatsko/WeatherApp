@@ -99,7 +99,7 @@ namespace WeatherApp.ViewModels
         #region View Properties
         public string CurrentLocation
         {
-            get { return $"{ Name }, { SysCountry }"; }
+            get { return Name != "Error" ? $"{ Name }, { SysCountry }" : $"{ Name } - { SysCountry }"; }
         }
 
         public string CurrentDay
