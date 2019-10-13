@@ -20,4 +20,4 @@ This is a desktop application that uses an API of OpenWeatherMap (https://openwe
 
 Register for free at OpenWeatherMap to obtain API key
 
-###### Please leave your comments and feedback. Thank you
+## Please leave your comments and feedback. Thank you
