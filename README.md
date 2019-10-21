@@ -14,8 +14,6 @@ This is a desktop application that uses an API of OpenWeatherMap (https://openwe
 
 - change measurement units: metric/imperial
 
-- error reporting: API errors are reported in the main window - instead of location
-
 ###### Before first launch
 
 Register for free at OpenWeatherMap to obtain API key
