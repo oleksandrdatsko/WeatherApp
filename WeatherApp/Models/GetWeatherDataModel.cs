@@ -24,8 +24,7 @@ namespace WeatherApp.Models
             catch (Exception e)
             {
                 response = await APIProcessor<WeatherModel>.APICall(GetDefaultURL());
-                response.Name = "Error";
-                response.sys.Country = e.Message;
+                MessageBox.Show("Error while loading weather data. Server response: " + e.Message);
             }
 
             return response;
