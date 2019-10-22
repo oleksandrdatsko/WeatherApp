@@ -24,7 +24,7 @@ namespace WeatherApp.Models
             catch (Exception e)
             {
                 response = await APIProcessor<WeatherModel>.APICall(GetDefaultURL());
-                MessageBox.Show("Error while loading weather data. Server response: " + e.Message);
+                MessageBox.Show("Error while loading weather data. Server response: " + e.Message,"Error",MessageBoxButton.OK,MessageBoxImage.Error);
             }
 
             return response;

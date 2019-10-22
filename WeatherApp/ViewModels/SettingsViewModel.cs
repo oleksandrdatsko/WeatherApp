@@ -55,6 +55,8 @@ namespace WeatherApp.ViewModels
                 DefaultValuesModel.Country = MyLocation.Country;
             }
 
+            DefaultValuesModel.SaveDefaultValues();
+
         }
 
         public void GetDefaultUnits(string units)
