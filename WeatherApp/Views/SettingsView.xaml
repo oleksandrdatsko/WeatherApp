@@ -36,7 +36,7 @@
 
         <!-- Row 1 : Select City -->
         <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal">
-            <TextBlock Width="100" x:Name="CurrentLocationCity" Text="Current Location : " Margin="10"/>
+            <TextBlock Width="110" x:Name="CurrentLocationCity" Text="Current Location : " Margin="10"/>
             <ComboBox Width="200"
                       ItemsSource="{Binding Path=(s:LocationListModel.LocationList),IsAsync=True}"
                       SelectedItem="{Binding Path=MyLocation,Mode=OneWayToSource}"
@@ -62,7 +62,7 @@
 
         <!-- Row 2 : Refresh Interval -->
         <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal">
-            <TextBlock Width="150" Text="Refresh Interval (min) : " Margin="10"/>
+            <TextBlock Width="160" Text="Refresh Interval (min) : " Margin="10"/>
             <ComboBox Width="150"
                       IsEditable="True"
                       IsReadOnly="True"
