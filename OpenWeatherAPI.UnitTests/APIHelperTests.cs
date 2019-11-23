@@ -24,7 +24,6 @@ namespace OpenWeatherAPI.UnitTests
         }
 
         [TestMethod]
-
         public async Task APIClient_Scenario_GetResponse_ReturnSuccess()
         {
             APIHelper.InitializeClient();
