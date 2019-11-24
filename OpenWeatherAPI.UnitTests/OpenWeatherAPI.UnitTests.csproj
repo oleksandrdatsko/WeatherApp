@@ -60,8 +60,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="APIHelperTests.cs" />
-    <Compile Include="APIProcessorTests.cs" />
+    <Compile Include="API.UnitTests\APIHelperTests.cs" />
+    <Compile Include="API.UnitTests\APIProcessorTests.cs" />
+    <Compile Include="Models.UnitTests\LocationModelTests.cs" />
+    <Compile Include="Models.UnitTests\WeatherModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
