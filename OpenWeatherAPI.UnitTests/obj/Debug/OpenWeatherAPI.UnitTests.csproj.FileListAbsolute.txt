@@ -20,3 +20,5 @@ D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\bin\Debug\System.Net
 D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\bin\Debug\OpenWeatherAPI.UnitTests.dll.config
 D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\bin\Debug\Newtonsoft.Json.dll
 D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\obj\Debug\OpenWeatherAPI.UnitTests.Properties.Resource.resources
+D:\Visual Studio Projects\MVVM_WPF\OpenWeatherAPI.UnitTests\obj\Debug\OpenWeatherAPI.UnitTests.csproj.GenerateResource.cache
