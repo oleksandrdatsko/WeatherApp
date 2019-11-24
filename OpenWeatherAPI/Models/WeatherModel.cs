@@ -40,7 +40,18 @@ namespace OpenWeatherAPI.Models
 
         public static bool operator !=(WeatherModel A, WeatherModel B)
         {
-            return A.weather != B.weather ||
+
+            bool weatherCompare = true;
+
+            if (A.weather.Count == B.weather.Count)
+            {
+                for (int i = 0; i < A.weather.Count; i++)
+                {
+                    weatherCompare = A.weather[i] != B.weather[i];
+                }
+            }
+
+            return weatherCompare ||
                     A.main != B.main ||
                     A.wind != B.wind ||
                     A.sys != B.sys ||
