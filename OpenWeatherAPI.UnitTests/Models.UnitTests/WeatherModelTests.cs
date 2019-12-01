@@ -21,7 +21,7 @@ namespace OpenWeatherAPI.UnitTests.Models.UnitTests
         }
 
         [TestMethod]
-        public void WeatherModel_Scenario_CheckIdProperty_Return()
+        public void WeatherModel_Scenario_CheckIdProperty_Return2172797()
         {
             //Arrange
             ReadWeatherResponseJson();

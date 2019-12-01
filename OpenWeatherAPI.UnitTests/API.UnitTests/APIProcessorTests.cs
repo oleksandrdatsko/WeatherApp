@@ -23,7 +23,7 @@ namespace OpenWeatherAPI.UnitTests
 
             //Act
             string url = "https://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b6907d289e10d714a6e88b30761fae22";
-            WeatherModel result  = await APIProcessor<WeatherModel>.APICall(url);
+            WeatherModel actualResult  = await APIProcessor<WeatherModel>.APICall(url);
 
             HttpResponseMessage response = await APIHelper.APIClient.GetAsync(url);
             WeatherModel expectedResult = await response.Content.ReadAsAsync<WeatherModel>();
@@ -31,7 +31,7 @@ namespace OpenWeatherAPI.UnitTests
             Task.WaitAll();
 
             //Assert
-            Assert.IsTrue(result == expectedResult);
+            Assert.IsTrue(actualResult == expectedResult);
 
         }
     }

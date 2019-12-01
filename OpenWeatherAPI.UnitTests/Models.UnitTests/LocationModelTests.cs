@@ -18,11 +18,12 @@ namespace OpenWeatherAPI.UnitTests.Models.UnitTests
 
             //Act
             LocationModel location = JsonConvert.DeserializeObject<LocationModel>(jsonLocation);
+            int actualLocationId = location.Id;
 
             int expectedLocationId = 756135;
 
             //Assert
-            Assert.AreEqual(location.Id, expectedLocationId);
+            Assert.AreEqual(actualLocationId, expectedLocationId);
 
 
         }
@@ -35,11 +36,12 @@ namespace OpenWeatherAPI.UnitTests.Models.UnitTests
 
             //Act
             LocationModel location = JsonConvert.DeserializeObject<LocationModel>(jsonLocation);
+            string actualLocationName = location.Name;
 
             string expectedLocationName = "Warsaw";
 
             //Assert
-            Assert.AreEqual(location.Name, expectedLocationName);
+            Assert.AreEqual(actualLocationName, expectedLocationName);
 
 
         }
@@ -52,11 +54,12 @@ namespace OpenWeatherAPI.UnitTests.Models.UnitTests
 
             //Act
             LocationModel location = JsonConvert.DeserializeObject<LocationModel>(jsonLocation);
+            string actualLocationCountry = location.Country;
 
             string expectedLocationCountry = "PL";
 
             //Assert
-            Assert.AreEqual(location.Country, expectedLocationCountry);
+            Assert.AreEqual(actualLocationCountry, expectedLocationCountry);
 
 
         }
@@ -69,11 +72,12 @@ namespace OpenWeatherAPI.UnitTests.Models.UnitTests
 
             //Act
             LocationModel location = JsonConvert.DeserializeObject<LocationModel>(jsonLocation);
+            string actualLocationFullLocation = location.FullLocation;
 
             string expectedLocationFullLocation = "Warsaw, PL - 756135";
 
             //Assert
-            Assert.AreEqual(location.FullLocation, expectedLocationFullLocation);
+            Assert.AreEqual(actualLocationFullLocation, expectedLocationFullLocation);
 
 
         }
