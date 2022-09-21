@@ -14,6 +14,8 @@ This is a desktop application that uses an API of OpenWeatherMap (https://openwe
 
 - change measurement units: metric/imperial
 
+- video demo: https://oleksandrdatsko-gmail.tinytake.com/tt/NDI5OTcwNV8xMzUxMjUyNw
+
 ###### Before first launch
 
 Register for free at OpenWeatherMap to obtain API key
